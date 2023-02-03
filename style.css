@@ -1,0 +1,2007 @@
+* {
+  box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Hurricane & family= Italianno & family= Roboto & display=swap');
+
+
+/***************** GENERAL *****************/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(228, 224, 224, 22%);
+  font: 1em/1.2 Helvetica, Arial, Geneva, sans-serif;
+}
+
+.container-fluid {
+  max-width: 80em;
+  margin: auto;
+
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+
+}
+
+header {
+  width: 100%;
+
+}
+
+#navbarNav {
+  margin-left: 110px;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  color: black;
+  width: 77%;
+  
+}
+
+.nav-item {
+  list-style-type: none;
+  margin-right: 10%;
+  transition: transform 0.2s;
+}
+.nav-item:hover {
+  transform: scale(1.2);
+}
+
+
+ul.login-menu {
+  display: none;
+  background-color: #153C18;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.connexion {
+  width: 12px;
+  height: 12px;
+}
+
+a.mot-obl {
+  margin-left: 37%;
+  margin-top: 1em;
+}
+
+
+/* main*/
+
+main {
+
+  max-width: 80em;
+  margin: auto
+}
+
+.img-head {
+  width: 100%;
+  height: 35em;
+  margin-top: 40px;
+}
+
+.pargre-1 h2 {
+  font-size: 62px;
+  margin-left: 120px;
+  padding-top: 20px;
+  padding-left: 90px;
+  width: 79%;
+}
+
+.order a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 8%;
+
+
+}
+
+.order {
+  border-radius: 50%;
+  background-color: rgba(21, 60, 24, 46%);
+  width: 6em;
+  padding: 17px;
+  margin-left: 89%;
+  margin-top: 83vh;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 80%;
+}
+
+
+.pargre-1 p {
+  font-size: 36px;
+  width: 98%;
+  margin-left: 30px;
+  margin-top: 40px;
+
+}
+
+.pargre-1 .button {
+  padding: 20px;
+  margin-left: 37%;
+  width: 26%;
+  border-radius: 50%;
+
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+  background-color: rgba(228, 224, 224, 22%);
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+/*ferme*/
+#section-2 .ferme {
+  margin-top: 90px;
+  display: flex;
+  margin-left: -44px;
+}
+
+.imgRoasted {
+  width: 90%;
+  height: 40em;
+  margin-left: 9%;
+  border-radius: 40% 40% 0 0;
+}
+
+.text {
+  margin-top: 200px;
+  width: 50%;
+  margin-left: 6%;
+}
+
+.titre-1 {
+  font-size: large;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-left: 40px;
+  width: 88%;
+}
+
+.titre-1-2 {
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 79px;
+  font-size: 50px;
+  margin-bottom: 77px;
+  width: 88%;
+}
+
+.pargraphe-1 {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: -30px;
+  width: 100%;
+}
+
+.button-2 {
+  margin-top: 29px;
+  border-radius: 50%;
+  width: 38%;
+  padding: 25px;
+  margin-left: 195px;
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: rgba(228, 224, 224, 22%);
+  transition: transform 0.5s ease;
+}
+
+.button-2:hover {
+  transform: scale(1.2);
+}
+
+/*nos promotions*/
+
+#nos-Promotions {
+  margin-top: 100px;
+  width: 80%;
+  background-color: rgba(21, 60, 24, 67%);
+}
+
+.promo {
+  height: 380px;
+  width: 70%;
+  color: white;
+  padding-top: 50px;
+  font-size: 55px;
+  margin-left: 200px;
+}
+
+.promos {
+  color: white;
+  margin-left: 179px;
+  font-size: 36px;
+  width: 60%;
+  margin-top: -260px;
+  padding-bottom: 55px;
+}
+
+/*spéciale*/
+#section-3 .speciale {
+  margin-top: 190px;
+  display: flex;
+}
+
+.pargraphe-2 {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: -30px;
+  width: 100%;
+}
+
+.texte {
+  margin-top: 200px;
+  width: 50%;
+  margin-left: 6%;
+}
+
+.titre-2 {
+  font-size: large;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-left: 90px;
+  width: 88%;
+}
+
+.titre-2-2 {
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 79px;
+  font-size: 50px;
+  margin-bottom: 77px;
+  width: 88%;
+}
+
+.img-2 img {
+  width: 90%;
+  height: 40em;
+  margin-left: 9%;
+}
+
+div.card {
+  box-shadow: rgba(21, 60, 24, 0.25) 0px 54px 55px, rgba(21, 60, 24, 0.12) 0px -12px 30px, rgba(21, 60, 24, 0.12) 0px 4px 6px, rgba(21, 60, 24, 0.17) 0px 12px 13px, rgba(21, 60, 24, 0.09) 0px -3px 5px;
+  width: 50vh;
+  height: 20vh;
+  margin-right: 5em;
+  margin-left: 33vh;
+  background-color: rgba(21, 60, 24, 21%);
+}
+
+div.box {
+  margin-top: 10em;
+  margin-bottom: 12em;
+  width: 80%;
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 13%;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+/****************************************caroussel*******************************************************/
+/****************************************caroussel*******************************************************/
+img.img-3 {
+  border-radius: 40% 40% 0 0;
+  width: 50%;
+  height: 52em;
+}
+
+#avisclient {
+  margin-top: 140px;
+  width: 96%;
+}
+
+div.avis {
+  display: flex;
+  width: 100%;
+  margin-top: 5em;
+  margin-bottom: 4em;
+}
+
+.img-3 {
+  border-radius: 40% 40% 0 0;
+  width: 100%;
+  height: 52em;
+}
+
+.carousel {
+  margin-top: 290px;
+  background-color: rgba(21, 60, 24, 67%);
+  height: 400px;
+  width: 50%;
+
+}
+
+.avis-tit {
+
+  height: 330px;
+  width: 96%;
+  color: white;
+  padding-top: 55px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 37px;
+
+}
+
+.avis-p {
+
+  color: white;
+  display: flex;
+  margin-left: 78px;
+  font-size: 21px;
+  width: 80%;
+  margin-top: -220px;
+  padding-bottom: 55px;
+
+}
+
+.client {
+
+  color: white;
+  display: flex;
+  margin-left: 78px;
+  font-size: 21px;
+  width: 30%;
+  margin-top: -20px;
+  padding-bottom: 55px;
+}
+
+iframe {
+  width: 100%;
+}
+
+/*footer */
+
+footer .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(202, 165, 165, 66%);
+}
+
+.left {
+  max-width: 29%;
+  text-align: center;
+}
+
+
+.mid {
+  max-width: 40%;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.right {
+  max-width: 99%;
+  margin-right: 1%;
+  text-align: center;
+  font-size: 18px;
+}
+
+div ul li {
+  list-style: none;
+}
+
+.reseau a {
+  display: inline-block;
+  color: white;
+  font-size: 5vh;
+  margin-left: 12px;
+  padding-left: 4vh;
+}
+
+/***********************************************inscription**************************************************/
+/***********************************************inscription**************************************************/
+/***********************************************inscription**************************************************/
+form.inscri {
+  margin-left: 19%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin-bottom: 12%;
+  margin-top: 12%;
+  margin-right: 20%
+}
+
+/***************** RESPONSIVE PETIT PH0NE*****************/
+/***************** RESPONSIVE PETIT PH0NE*****************/
+/***************** RESPONSIVE PETIT PH0NE*****************/
+@media (max-width: 500px) {
+  /* une seule colonne (one column page) */
+
+  .pargre-1 h2 {
+    font-size: 33px;
+    margin-left: 1%;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 96%;
+
+  }
+
+  .order {
+    margin-left: 77%;
+  }
+
+  .pargre-1 p {
+    font-size: 20px;
+    width: 110%;
+    margin-left: 1px;
+
+  }
+
+  .pargre-1 .button {
+
+    margin-left: 28%;
+    width: 46%;
+  }
+
+  .ferme {
+    flex-direction: column-reverse;
+  }
+
+  .text {
+    width: 94%;
+    margin-left: 7%;
+    margin-top: 6%;
+
+  }
+
+  .titre-1 {
+    font-size: 39px;
+
+  }
+
+  .titre-1-2 {
+
+    width: 80%;
+    font-size: 39px;
+  }
+
+  .pargraphe-1 {
+    margin-left: 1%;
+    font-size: 22px;
+
+  }
+
+  .button-2 {
+    margin-left: 35%;
+  }
+
+  /*nos promotions*/
+
+  #nos-Promotions {
+    width: 99%;
+  }
+
+  .promo {
+
+    width: 90%;
+    margin-left: 47px;
+    padding-top: 50px;
+    padding-left: 22px;
+    font-size: 44px;
+  }
+
+  .promos {
+    color: white;
+    margin-left: 1px;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .speciale {
+    flex-direction: column-reverse;
+  }
+
+  .img-2 img {
+    margin-left: 1px;
+    width: 100%;
+    margin-top: -189px;
+
+  }
+
+  .texte {
+    width: 94%;
+    margin-left: 2%;
+    margin-top: 6%;
+
+
+  }
+
+  .titre-2 {
+    font-size: 35px;
+    width: 80%;
+    margin-left: 13%;
+  }
+
+  .titre-2-2 {
+
+    width: 80%;
+    font-size: 33px;
+    margin-left: 16%;
+  }
+
+  .pargraphe-2 {
+    margin-left: 1%;
+    width: 450px;
+
+  }
+
+  div.card {
+    margin-left: 7em;
+  }
+
+  div.box {
+    flex-direction: column;
+    margin-left: -22px;
+  }
+
+
+  div.avis {
+    flex-direction: column;
+  }
+
+  img.img-3 {
+    width: 98%;
+    margin-left: 4px;
+  }
+
+  .carousel {
+
+    margin-top: 29px;
+    width: 99%;
+  }
+
+  /************** page menu******************/
+  /************** page menu******************/
+  /************** page menu******************/
+
+
+  div .plat-img {
+    margin-left: 25%;
+  }
+
+  li.categorie-titre a {
+   margin-left: 2vh;
+    width: 11%;
+}
+
+h2.tit-pro {
+   margin-left: 120em;
+   padding-left: 18%;
+}
+
+.produit {
+    flex-direction: column;
+}
+
+div img.plat-img {
+  margin-left: 10vh;
+  width: 82%;
+}
+
+p.pargr {
+    margin-left: 4em;
+    font-size:14px;
+    width: 82%;
+}
+p.prix{
+    margin-left: 9em;
+}
+form.formula-menu{
+margin-left:7em;
+margin-top: 2em;
+}
+
+  /**********************************************BLOG **************************************************************/
+  /**********************************************BLOG *************************************************************/
+  /*********************************************BLOG************************************************************/
+  div div.site-title h1 {
+    padding-top: 50%;
+    font-size: 60px;
+  }
+
+  div .chef h2 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .chefe {
+    flex-direction: column;
+  }
+
+  .chefe .img-chef {
+    width: 96%;
+  }
+
+  div .parg-chef h3 {
+    font-size: 43px;
+    margin-left: 6%;
+  }
+
+  div.chefe hr {
+    margin-left: 22%;
+    width: 41%;
+  }
+
+  div.chefe p {
+    text-align: justify;
+    width: 106%;
+    margin-left: -7%;
+    font-size: 22px;
+  }
+
+  div.chefe h6 {
+    margin-bottom: 30%;
+  }
+
+  div.recettes h2 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  div.galeries h2 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  h2.titre-avis {
+    font-size: 29px;
+    width: 100%;
+    text-align: center;
+  }
+
+  button.prev {
+    margin-left: 22%;
+  }
+
+  div.slide-blog {
+    width: 90%;
+    margin-left: 22px;
+  }
+
+  /**********************************************contact**************************************************************/
+  /**********************************************contact*************************************************************/
+  /**********************************************contact******************************************************************/
+  form.contact-form {
+    margin-top: -1em;
+    margin-left: 1px;
+    width: 99%;
+  }
+
+  h2.titre_contact {
+    font-size: 28px;
+  }
+
+  div.cont-1 {
+    flex-direction: column;
+
+  }
+
+  div input.cadre-cont {
+    width: 92%;
+    margin-left: 1em;
+  }
+
+  label.nom {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  #prenom {
+    margin-top: 3em;
+  }
+
+  label.prenom {
+    padding-top: 3em;
+    text-align: center;
+  }
+
+  label.email {
+    margin-top: 35px;
+    margin-left: 4em;
+  }
+
+  div.objet-contact label {
+    margin-left: 5em;
+  }
+
+  div input.obj-cont {
+    margin-left: 1em;
+    width: 92%;
+  }
+
+  div.message-contact label {
+    margin-left: 11px;
+  }
+
+  div.message-contact textarea {
+    margin-left: 1em;
+    width: 92%;
+  }
+
+  div input.btn-contact {
+    width: 53%;
+    margin-left: 6em;
+  }
+
+  /**********************************************reservation **************************************************************/
+  /**********************************************reservation *************************************************************/
+  /*********************************************reservation*************************************************************/
+  h2.titre_reservation {
+    font-size: 42px;
+  }
+form.reservation-form{
+  margin-left: 1vh;
+}
+
+  .rev-1 {
+    margin-bottom: 6em;
+    flex-direction: column;
+
+
+  }
+
+  div .rev-1 input {
+    margin-left: 1em;
+    width: 95%;
+  }
+
+  .entit-2 {
+    flex-direction: column;
+    margin-top: -3em;
+  }
+ select.cadre-2{
+  margin-top: 2em;
+ }
+ #Date-de-reservation{
+  margin-top: 3em;
+ }
+  select.cadre-2 {
+    margin-left: 1em;
+    width: 96%;
+
+  }
+
+  label.titre-rev-3 {
+    margin-left: 29px;
+    margin-top: 2em;
+  }
+
+  input.cadre-3 {
+    margin-left: 1em;
+    width: 96%;
+  }
+
+  div.time-reser {
+    margin-top: -1em;
+    margin-top: 2em;
+  }
+
+  div.time-reser label {
+    margin-left: 22px;
+   
+  }
+
+  div.time-reser input {
+    margin-left: 12px;
+  }
+
+  div.message-reser label {
+    margin-left: 26px;
+  }
+
+  div.message-reser textarea {
+    margin-left: 5px;
+    height: 10em;
+    width: 95%;
+  }
+
+  .btn-revservation {
+    margin-left: -22em;
+  }
+
+}
+
+
+
+
+/***************** RESPONSIVE PH0NE*****************/
+/***************** RESPONSIVE PH0NE*****************/
+/***************** RESPONSIVE PH0NE*****************/
+@media (min-width: 501px)and (max-width: 768px) {
+  .pargre-1 h2 {
+    font-size: 29px;
+    margin-left: 7%;
+    padding-top: 20px;
+    padding-left: 17%;
+    width: 86%;
+
+
+
+  }
+
+  .order {
+    margin-left: 79%;
+  }
+
+  .pargre-1 p {
+    font-size: 28px;
+    width: 98%;
+    margin-left: 23px;
+  }
+
+  .pargre-1 .button {
+
+    margin-left: 28%;
+    width: 46%;
+  }
+
+  /* ferme*/
+  .ferme {
+    flex-direction: column-reverse;
+  }
+
+  .text {
+    width: 94%;
+    margin-left: 7%;
+    margin-top: 6%;
+
+  }
+
+  .titre-1 {
+    font-size: 44px;
+    margin-left: 19%;
+    width: 80%;
+
+  }
+
+  .titre-1-2 {
+    width: 70%;
+    font-size: 39px;
+    margin-left: 26%;
+  }
+
+  .pargraphe-1 {
+    margin-left: 6%;
+    width: 90%;
+  }
+
+
+
+  /*nos promotions*/
+
+  #nos-Promotions {
+    width: 99%;
+  }
+
+  .promo {
+
+    width: 90%;
+    margin-left: 47px;
+    padding-top: 50px;
+    padding-left: 22px;
+    font-size: 44px;
+  }
+
+  .promos {
+    color: white;
+    margin-left: 1px;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .speciale {
+    flex-direction: column-reverse;
+  }
+
+  .img-2 img {
+    margin-left: 1px;
+    width: 100%;
+    margin-top: -189px;
+
+  }
+
+  .texte {
+    width: 94%;
+    margin-left: 7%;
+    margin-top: 6%;
+
+
+  }
+
+  .titre-2 {
+    font-size: 44px;
+    margin-left: 19%;
+    width: 80%;
+  }
+
+  .titre-2-2 {
+
+    width: 70%;
+    font-size: 39px;
+    margin-left: 20%;
+  }
+
+  .pargraphe-2 {
+    margin-left: 1%;
+
+    width: 94%;
+
+  }
+
+  div.card {
+    margin-left: 15em;
+  }
+
+  div.box {
+    flex-direction: column;
+  }
+
+  .avis {
+    flex-direction: column;
+  }
+
+  img.img-3 {
+    width: 100%;
+    margin-left: -4px;
+  }
+
+  .carousel {
+
+    margin-top: 11px;
+    width: 99%;
+  }
+
+  /************** page menu******************/
+  /************** page menu******************/
+  /************** page menu******************/
+
+  div .plat-img {
+    margin-left: 25%;
+  }
+
+  li.categorie-titre a {
+   margin-left: 29vh;
+   font-size: 49px;
+    width: 11%;
+}
+
+h2.tit-pro {
+   margin-left: 120em;
+   padding-left: 25%;
+}
+
+.produit {
+    flex-direction: column;
+}
+
+div img.plat-img {
+  margin-left: 10vh;
+  width: 82%;
+}
+
+p.pargr {
+    margin-left: 3em;
+    font-size:17px;
+    width: 83%;
+}
+p.prix{
+    margin-left: 14em;
+}
+form.formula-menu{
+margin-left:13em;
+margin-top: 2em;
+}
+  /**********************************************BLOG **************************************************************/
+  /**********************************************BLOG *************************************************************/
+  /*********************************************BLOG************************************************************/
+  div div.site-title h1 {
+    padding-top: 30%;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 12%;
+  }
+
+  div.chef h2 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+
+  }
+
+  .chefe {
+    flex-direction: column;
+  }
+
+  .chefe .img-chef {
+    width: 96%;
+  }
+
+  div .parg-chef h3 {
+    font-size: 43px;
+    margin-left: 7%;
+    font-size: 62px;
+
+  }
+
+  div.chefe hr {
+    margin-left: 22%;
+    width: 46%;
+  }
+
+  div.chefe p {
+    text-align: justify;
+    width: 106%;
+    margin-left: -7%;
+    font-size: 22px;
+  }
+
+  div.chefe h6 {
+    margin-bottom: 30%;
+    margin-top: 7%;
+    text-align: center;
+  }
+
+  div.recettes h2 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  div.galeries h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  button.prev {
+    margin-left: 29%;
+  }
+
+  h2.titre-avis {
+    width: 100%;
+    text-align: center;
+  }
+
+  div.slide-blog {
+    width: 80%;
+    margin-left: 12%;
+    height: 100vh;
+  }
+
+  /**********************************************contact **************************************************************/
+  /**********************************************contact *************************************************************/
+  /*********************************************contact*************************************************************/
+
+
+
+  div input.obj-cont {
+
+    margin-left: 10em;
+
+  }
+
+  div.message-contact label {
+    margin-left: 8em;
+  }
+
+  textarea#message {
+
+    margin-left: 10em;
+  }
+
+  input.btn-contact {
+    margin-left: 30%;
+    width: 40%;
+
+  }
+
+  /**********************************************reservation **************************************************************/
+  /**********************************************reservation *************************************************************/
+  /*********************************************reservation*************************************************************/
+  form.contact-form {
+    margin-top: -1em;
+    margin-left: 1px;
+    width: 99%;
+  }
+
+  h2.titre_contact {
+    font-size: 28px;
+  }
+
+  div.cont-1 {
+    flex-direction: column;
+
+  }
+
+  div input.cadre-cont {
+    width: 92%;
+    margin-left: 1em;
+  }
+
+  div label.nom {
+    padding-bottom: 50px;
+    margin-left: 34vh;
+  }
+
+  #prenom {
+    margin-top: 3em;
+  }
+
+  div label.prenom {
+    padding-top: 3em;
+   margin-left: 34vh;
+  }
+
+  label.email {
+    margin-top: 35px;
+    margin-left: 6em;
+  }
+
+  div.objet-contact label {
+    margin-left: 6em;
+  }
+
+  div input.obj-cont {
+    margin-left: 1em;
+    width: 92%;
+  }
+
+  div.message-contact label {
+    margin-left: 25px;
+  }
+
+
+  div #message{
+    margin-left: 3vh;
+    width: 90%;
+  }
+  div input.btn-contact {
+    width: 53%;
+    margin-left: 8em;
+  }
+}
+
+/***************** RESPONSIVE TABLETTE*****************/
+/***************** RESPONSIVE TABLETTE*****************/
+/***************** RESPONSIVE TABLETTE*****************/
+@media (min-width: 769px)and (max-width: 992px) {
+  .pargre-1 h2 {
+    margin-left: 12%;
+    width: 85%;
+    font-size: 44px;
+
+  }
+
+  .pargre-1 p {
+
+    margin-left: -1px;
+
+  }
+
+
+  .titre-1 {
+    font-size: 44px;
+    margin-left: -1px;
+    width: 99%;
+
+  }
+
+  .titre-1-2 {
+    font-size: 44px;
+    margin-left: 36px;
+
+    width: 99%;
+  }
+
+  .button-2 {
+    margin-left: 31%;
+  }
+
+  .titre-2 {
+    font-size: 44px;
+    margin-left: -1px;
+    width: 99%;
+
+  }
+
+  .titre-2-2 {
+    font-size: 40px;
+    margin-left: 1px;
+    width: 99%;
+  }
+
+  div.card {
+    margin-right: -4em;
+    margin-left: 8em;
+  }
+
+
+
+  /************** page menu******************/
+  /************** page menu******************/
+  /************** page menu******************/
+
+
+  li.categorie-titre a {
+    margin-left: 6em;
+    font-size: 52px;
+  }
+
+  div img.plat-img {
+    margin-left: 24%;
+  }
+
+  p.pargr {
+    margin-left: 5em;
+   
+  }
+
+  p.prix {
+    margin-left: 6em;
+  }
+ div h2.tit-pro{
+    margin-left: 110px;
+  }
+  form.formula-menu{
+    margin-left: 1em;
+  }
+
+  /**********************************************BLOG **************************************************************/
+  /**********************************************BLOG *************************************************************/
+  /*********************************************BLOG************************************************************/
+  div div.site-title h1 {
+    padding-top: 30%;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 12%;
+  }
+
+  div.chef h2 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .chefe {
+    flex-direction: column;
+  }
+
+  .chefe .img-chef {
+    width: 96%;
+  }
+
+  div .parg-chef h3 {
+    font-size: 43px;
+    margin-left: 1%;
+    font-size: 62px;
+    width: 90%;
+    text-align: center;
+  }
+
+  div.chefe hr {
+    margin-left: 22%;
+    width: 46%;
+  }
+
+  div.chefe p {
+    text-align: justify;
+    width: 106%;
+    margin-left: -7%;
+    font-size: 22px;
+
+  }
+
+  div.chefe h6 {
+    margin-bottom: 30%;
+    margin-top: 7%;
+    text-align: center;
+  }
+
+  div.recettes h2 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  div.galeries h2 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  button.prev {
+    margin-left: 32%;
+  }
+
+  h2.titre-avis {
+    width: 100%;
+    text-align: center;
+  }
+
+  /**********************************************contact **************************************************************/
+  /**********************************************contact *************************************************************/
+  /*********************************************contact*************************************************************/
+
+
+  .email {
+
+    margin-left: 30%;
+
+  }
+
+  .objet-contact label {
+
+    margin-left: 4%;
+
+  }
+
+  div input.obj-cont {
+
+    margin-left: 14em;
+
+  }
+
+
+  textarea#message {
+
+    margin-left: 14em;
+  }
+
+  input.btn-contact {
+    margin-left: 29%;
+
+  }
+
+  /**********************************************reserver****************************************************/
+  /**********************************************reserver****************************************************/
+  /**********************************************reserver****************************************************/
+  h2.titre_reservation {
+    font-size: 39px;
+  }
+
+  div.time-reser label {
+    margin-left: 43%;
+
+  }
+
+  div.message-reser label {
+    margin-left: 49%;
+  }
+
+  .btn-revservation {
+    margin-left: -22%;
+  }
+}
+
+/***************** RESPONSIVE LAPTOP*****************/
+/***************** RESPONSIVE LAPTOP*****************/
+/***************** RESPONSIVE LAPTOP*****************/
+@media (min-width: 993px)and (max-width: 1200px) {
+  .pargre-1 h2 {
+    font-size: 55px;
+
+  }
+
+  #navbarNav {
+    margin-left: 30px;
+  }
+
+  .img-3 {
+    width: 100%;
+  }
+
+  div.card {
+    margin-left: 9em;
+  }
+
+  /**********************************************BLOG **************************************************************/
+  /**********************************************BLOG *************************************************************/
+  /*********************************************BLOG************************************************************/
+  div div.site-title h1 {
+    font-size: 60px;
+
+  }
+
+  div .img-chef {
+    width: 100%;
+  }
+
+  div .parg-chef {
+    margin-right: 11%;
+    margin-top: -19%;
+    height: 77vh;
+  }
+
+  div h2.recette-tit {
+    font-size: 32px;
+  }
+
+  div .parg-chef p {
+    font-size: 17px;
+    width: 100%;
+    margin-top: 8%;
+  }
+
+  div .parg-chef h3 {
+    font-size: 49px;
+
+  }
+
+  h2.titre-avis {
+    font-size: 32px;
+  }
+
+  button.prev {
+    margin-left: 37%;
+  }
+
+  /**********************************************reserver****************************************************/
+  /**********************************************reserver****************************************************/
+  /**********************************************reserver****************************************************/
+  h2.titre_reservation {
+    font-size: 42px;
+
+  }
+
+  div.time-reser label {
+    margin-left: 43%;
+
+  }
+
+  div.message-reser label {
+    margin-left: 49%;
+  }
+
+  .btn-revservation {
+    margin-left: -10%;
+  }
+
+}
+
+/**********************************************MENU **************************************************************/
+/********************************************** MENU*************************************************************/
+/*********************************************MENU**********************************************************/
+h1 {
+  border: 1px solid;
+  background-color: rgba(21, 60, 24, 47%);
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  height: 110px;
+  padding-top: 20px;
+  font-size: 63px;
+}
+
+.img-menu {
+  width: 100%;
+  height: 60em;
+}
+
+
+figcaption {
+  color: white;
+  left: 30%;
+  margin-top: -10em;
+  background: rgba(228, 224, 224, 62%);
+  padding-top: 3em;
+  text-align: center;
+  width: 40%;
+  height: 160px;
+  position: relative;
+}
+
+
+span h3{
+  text-align: center;
+}
+
+.hr-1 {
+  color: black;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: black;
+}
+
+.hr-2 {
+  margin-top: -8px;
+  width: 94%;
+  margin-left: 16px;
+}
+
+div.categorie {
+  background-color: rgba(228, 224, 224, 22%);
+}
+
+.categorie-titre a {
+  text-decoration: none;
+  font-size: 4em;
+  color: black;
+  margin-left: 8em;
+}
+
+.img-menu {
+  width: 100%;
+}
+
+img.plat-img {
+  margin-left: 7em;
+}
+
+.produit h2 {
+  margin-left: 5em;
+}
+
+.pargr {
+  font-size: 14px;
+  margin: 22px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.prix {
+  margin-left: 7em;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+form {
+  margin-left: 5em;
+}
+
+
+
+/**********************************************BLOG **************************************************************/
+/**********************************************BLOG *************************************************************/
+/*********************************************BLOG************************************************************/
+div .imge-header-blog {
+  background-image: url(./img/blog.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+div.site-title h1 {
+  text-align: center;
+  font-family: 'Lancelot';
+  background-color: transparent;
+  text-transform: none;
+  font-size: 6em;
+  padding-top: 20%;
+  border: none;
+  color: #153C18;
+}
+
+.chefe {
+  display: flex;
+}
+
+.chef h2 {
+  border: 1px solid;
+  background-color: rgba(21, 60, 24, 47%);
+  color: white;
+  font-weight: 900;
+  height: 100%;
+  padding-top: 10px;
+  font-size: 63px;
+  margin-top: 6%;
+  padding-left: 8%;
+  width: 50%;
+  padding-bottom: 2%;
+}
+
+.chefe .parg-chef {
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+.img-chef {
+  width: 110%;
+  margin-left: 2%;
+  height: 65%;
+}
+
+.chefe h3 {
+  font-size: 393%;
+}
+
+.chefe hr {
+  width: 29%;
+}
+
+.chefe p {
+  width: 79%;
+  font-size: 130%;
+}
+
+.chefe h6 {
+  margin-top: 16%;
+  font-size: 122%;
+}
+
+.recettes h2 {
+  border: 1px solid;
+  background-color: rgba(21, 60, 24, 47%);
+  color: white;
+  font-weight: 900;
+  height: 100%;
+  padding-top: 10px;
+  font-size: 55px;
+  padding-left: 3%;
+  width: 50%;
+  margin-top: -17%;
+  padding-bottom: 3%;
+}
+
+.recettes img {
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 3%;
+}
+
+.recettes h6 {
+  text-align: center;
+  margin-bottom: 3%;
+  font-size: 40px;
+}
+
+.recettes p {
+  width: 95%;
+  margin-left: 3%;
+  text-align: justify;
+  text-align: center;
+  font-size: 20px;
+}
+
+.galeries h2 {
+  border: 1px solid;
+  background-color: rgba(21, 60, 24, 47%);
+  color: white;
+  font-weight: 900;
+  height: 100%;
+  padding-top: 10px;
+  font-size: 63px;
+  margin-top: 6%;
+  padding-left: 8%;
+  width: 50%;
+  padding-bottom: 3%;
+
+}
+
+.carousel-image {
+  display: none;
+  width: 66%;
+  height: 72vh;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+
+.carousel-image.active {
+  display: block;
+}
+
+.prev,
+.next {
+  font-size: 1em;
+  /* augmenter la taille du texte */
+  padding: 10px 20px;
+  /* ajuster les dimensions du bouton */
+  margin-left: 3em;
+
+}
+
+.prev {
+  margin-left: 33em;
+  margin-top: 2em;
+  border-radius: 22%;
+  background-color: #345737;
+  color: white;
+  border: none;
+}
+
+.next {
+  border-radius: 22%;
+  background-color: #345737;
+  color: white;
+  border: none;
+}
+
+/* Ajouter une transition pour les boutons de navigation */
+.prev:hover,
+.next:hover {
+  background-color: #ddd;
+  /* changer la couleur de fond lors du survol */
+  transition: background-color 0.5s ease;
+  /* ajouter une transition */
+}
+
+
+
+.titre-avis {
+  border: 1px solid;
+  background-color: rgba(21, 60, 24, 47%);
+  color: white;
+  font-weight: 900;
+  height: 19vh;
+  padding-top: 22px;
+  font-size: 43px;
+  margin-top: 8%;
+  padding-left: 3%;
+  width: 50%;
+  padding-bottom: 8%;
+}
+
+
+.slide-blog {
+  background-color: rgba(228, 224, 224, 98%);
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2em;
+  height: 39em;
+  margin-bottom: 8em;
+}
+
+h3.avis-tit {
+  color: black;
+}
+
+p.avis-p {
+  margin-top: -27vh;
+  color: black;
+  margin-left: 12%;
+}
+
+p.client {
+  color: black;
+  margin-left: 10%;
+}
+
+/**********************************************contact **************************************************************/
+/**********************************************contact *************************************************************/
+/*********************************************contact*************************************************************/
+
+
+.titre_contact {
+  color: white;
+  text-align: center;
+  padding-top: 3em;
+  margin-bottom: 4em;
+  font-size: 42px;
+}
+
+.cadre-cont {
+  width: 50%;
+  height: 59px;
+  margin-right: 2em;
+  background-color: rgb(255, 255, 255, 2%);
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.cont-1 label {
+
+  height: 19px;
+  margin-left: 5%;
+  margin-top: -50px;
+  color: white;
+  font-size: 32px;
+
+}
+
+.cont-1 input {
+  margin-left: -9%;
+}
+
+.email {
+  margin-top: 3em;
+  height: 19px;
+  padding-left: 1em;
+  margin-left: 43%;
+  color: white;
+  font-size: 32px;
+}
+
+input.card {
+  margin-left: 25%;
+  height: 59px;
+  background-color: rgb(255, 255, 255, 2%);
+  border: 5px solid rgb(255, 255, 255);
+
+}
+
+.objet-contact label {
+  margin-top: 2em;
+  height: 19px;
+  padding-left: 1%;
+  margin-left: 46%;
+  color: white;
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+.objet-contact input {
+  width: 50%;
+  height: 59px;
+  margin-left: 19em;
+  background-color: rgb(255, 255, 255, 2%);
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.message-contact label {
+  margin-top: 2em;
+  height: 19px;
+  margin-left: 33%;
+  color: white;
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+.message-contact textarea {
+  width: 50%;
+  height: 15em;
+  margin-left: 19em;
+  background-color: rgb(255, 255, 255, 2%);
+  border: 5px solid rgb(255, 255, 255);
+}
+
+input.btn-contact {
+  margin-left: 34%;
+  color: white;
+  height: 6em;
+  width: 22em;
+  background-color: rgba(48, 20, 20, 66%);
+  font-size: 17px;
+  margin-bottom: 23em;
+}
+
+
+/**********************************************reservation **************************************************************/
+/**********************************************reservation *************************************************************/
+/*********************************************reservation*************************************************************/
+div .reservation {
+  border: 1px solid rgba(202, 165, 165, 17%);
+  background-color: rgba(202, 165, 165, 17%);
+  margin-top: 93px;
+  width: 99%;
+  font-family: 'Italianno', cursive;
+
+}
+
+.titre_reservation {
+  text-align: center;
+  margin-top: 73px;
+  font-size: 6em;
+  margin-bottom: 82px;
+}
+
+.cadre {
+  width: 50%;
+  height: 55px;
+  margin-right: 2em;
+
+}
+
+.rev-1 {
+
+  margin-bottom: 6em;
+
+
+}
+
+.rev-1 label {
+
+  height: 19px;
+  padding-left: 2em;
+  margin-left: 1em;
+}
+
+.rev-1 input {
+  margin-top: 22px;
+  margin-left: -5em;
+
+
+}
+
+.entit-2 {
+  display: flex;
+}
+
+.titre-rev-2 {
+
+
+  height: 10px;
+  margin-top: -2em;
+  width: 15em;
+  margin-left: 2em;
+
+}
+
+.cadre-2 {
+  width: 46%;
+  margin-left: -17em;
+  height: 55px;
+}
+
+.titre-rev-3 {
+
+  height: 10px;
+  margin-top: -2em;
+  width: 15em;
+  margin-left: 7em;
+
+}
+
+.cadre-3 {
+  width: 45%;
+  margin-left: -17em;
+  height: 55px;
+}
+
+.time-reser {
+  white-space: 50%;
+  margin-top: 42px;
+}
+
+.time-reser input {
+  height: 19px;
+  margin-top: 1em;
+  width: 40%;
+  height: 55px;
+  margin-left: 30%;
+}
+
+.time-reser label {
+
+  height: 10px;
+  margin-left: 33em;
+}
+
+.message-reser {
+  margin-top: 6em;
+}
+
+.message-reser label {
+  height: 10px;
+  margin-left: 37em;
+  margin-bottom: 2em;
+}
+
+.message-reser textarea {
+  margin-left: 20%;
+  width: 60%;
+  height: 30em;
+}
+
+input.btn {
+  width: 30%;
+  height: 4em;
+  margin-bottom: 2em;
+  margin-left: 20em;
+  background-color: rgba(21, 60, 24, 46%);
+  color: white;
+  font-size: 22px;
+}
